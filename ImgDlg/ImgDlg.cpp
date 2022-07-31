@@ -1,4 +1,4 @@
-﻿// ImgDlg.cpp : 애플리케이션에 대한 진입점을 정의합니다.
+﻿  // ImgDlg.cpp : 애플리케이션에 대한 진입점을 정의합니다.
 //
 
 #include "framework.h"
@@ -20,7 +20,11 @@ INT_PTR CALLBACK DIgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     {
         PAINTSTRUCT ps;
         HDC hdc = BeginPaint(hDlg, &ps);
-
+        Graphics gp(hdc);
+        Image img = TEXT("img1.jpg");
+        gp.DrawImage(&img, 0, 0, 800, 600);
+        EndPaint(hDlg, &ps);
+    }
     return TRUE;
     case WM_COMMAND:
         if (LOWORD(wParam) == IDOK || LOWORD(wParam) == IDCANCEL)
