@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main() {
+void main7() {
 	int num1 = 0, num2 = 0, num3 = 0, num4 = 0;
 	char name[50];
 	int result1 = 1 + 1;
@@ -43,8 +43,7 @@ void main() {
 	printf("2. 2 - 1 = %d \n\n", num2);
 	printf("3. 3 * 3 = %d \n\n", num3);
 	printf("4. 10 / 2 = %d \n\n", num4);
-
-
+	
 
 
 }

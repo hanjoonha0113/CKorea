@@ -18,37 +18,13 @@
     <ClCompile Include="review.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="scane.c">
+    <ClCompile Include="_04_loop.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="scan.c">
+    <ClCompile Include="_05_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="_02_scan.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_03_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_04_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_05_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_06_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_07_oper.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_01_loop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_02_loop.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="_03_loop.c">
+    <ClCompile Include="_06_func.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
